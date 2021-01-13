@@ -1,0 +1,43 @@
+@import "~normalize.css";
+
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+input#input{
+    text-align: center;
+    height: 25px;
+    width: 300px;
+}
+
+input{
+    margin-left: 15px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: flex;
+    border: 1px solid rgb(145, 145, 145);
+    margin-top: 5px;
+    width: 500px;
+    position: relative;
+}
+
+ul li input{
+    margin: auto 5px;
+}
+
+ul li button{
+    position: absolute;
+    right: 0;
+    
+}
